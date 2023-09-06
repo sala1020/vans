@@ -1,0 +1,617 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+
+    /* background-color: black; */
+
+}
+
+.nav-1 {
+    background-color: black;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-1 h4 {
+    margin-top: 8px;
+    font: status-bar;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-1 a {
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-2 img {
+    height: 55px;
+    margin-left: 240px;
+    margin-top: 31px;
+}
+
+.nav-2-div1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: -22px 382px 0px 0px;
+    text-decoration: none;
+}
+
+.nav-2-div1 a {
+
+    padding: 0px 0px 0px 25px;
+    font-weight: 700;
+    color: black;
+    text-decoration-line: none;
+    font-family: sans-serif;
+
+}
+.nav-2-div1 a:hover{
+    border-bottom: 2px solid black;
+    animation: 1s ease-in-out;
+}
+
+.nav-2-div2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: -97px 142px 0px 0px;
+    text-decoration: none;
+}
+
+.nav-2-div2 a {
+    padding: 0px 0px 0px 12px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #737680;
+    text-decoration-line: none;
+    font-family: sans-serif;
+}
+.nav-2-div2 a:hover{
+    color: #347298;
+    text-decoration-line: underline;
+}
+
+.box {
+    width: 189px;
+    height: 36px;
+    display: flex;
+    margin-left: 1545px;
+    margin-top: 22px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.search-button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    margin-top: 3px;
+    height: 31px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icon-search {
+    height: 23px;
+}
+
+.search-field {
+    margin-top: -33px;
+    margin-left: 1587px;
+    width: 125px;
+    display: flex;
+    outline: none;
+    justify-content: right;
+    background-color: white;
+    border: none;
+    height: 22px;
+    font-family: sans-serif;
+    border-color: black;
+
+}
+
+.search-field:hover {
+    border: none;
+}
+
+.search-button-2 {
+    border-radius: 50px;
+    margin-left: 109px;
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+
+
+.cart img {
+    display: flex;
+    justify-items: end;
+    margin: -23px 136px 0px 0px;
+    float: right;
+    height: 23px;
+}
+
+.first img {
+    padding: 30px 224px 31px 261px;
+}
+
+.second img {
+    padding: 30px 224px 25px 261px;
+}
+
+.third h1 {
+    padding: 0px 224px 20px 261px;
+    font-size: xx-large;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+}
+
+.forth {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.forth a {
+    padding: 0px 0px 0px 0px;
+}
+
+.forth-1 {
+    width: 338px;
+    height: 329px;
+    margin-left: 262px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/third\ img.webp);
+    background-size: 338px 328px;
+}
+
+.forth-2 {
+    width: 338px;
+    height: 329px;
+    margin-left: 24px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/forthimg.webp );
+    background-size: 338px 328px;
+}
+
+.forth-3 {
+    width: 338px;
+    height: 329px;
+    margin-left: -49px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/fifthimg.webp);
+    background-size: 338px 328px;
+}
+
+.forth-4 {
+    width: 338px;
+    margin-left: -125px;
+    height: 329px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/sixthimg.webp);
+    background-size: 338px 328px;
+}
+
+.forth-1 button {
+    height: 59px;
+    margin: 150px 0px 0px 120px;
+    border: none;
+    background: white;
+    width: 115px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.forth-2 button {
+    height: 59px;
+    margin: 150px 0px 0px 120px;
+    border: none;
+    background: white;
+    width: 115px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.forth-3 button {
+    height: 59px;
+    margin: 150px 0px 0px 120px;
+    border: none;
+    background: white;
+    width: 115px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.forth-4 button {
+    height: 59px;
+    margin: 150px 0px 0px 111px;
+    border: none;
+    background: white;
+    width: 137px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.forth-1 button:hover {
+    border: 1px solid blueviolet;
+    transition: 0.15s ease-in-out;
+}
+
+.forth-2 button:hover {
+    border: 1px solid blueviolet;
+    transition: 0.15s ease-in-out;
+}
+
+.forth-3 button:hover {
+    border: 1px solid blueviolet;
+    transition: 0.15s ease-in-out;
+}
+
+.forth-4 button:hover {
+    border: 1px solid blueviolet;
+    transition: 0.15s ease-in-out;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden;
+    padding: 24px 0px 0px 44px; */
+}
+
+/* .fifth-img-1{
+    width: 715px ;
+ }
+ .fifth-img-2{
+    margin-left: 23px;
+    width: 715px;
+ } */
+.fifth-1 img {
+    width: 699px;
+    padding: 0px 17px 0px 5px;
+    height: 582px;
+    margin-left: 56px;
+}
+
+.fifth-2 img {
+    width: 698px;
+    padding: 0px 19px 0px 6px;
+    height: 582px;
+}
+
+.fifth-1 {
+    margin-left: -1px;
+    width: 778px;
+    padding-top: 30px;
+}
+
+.fifth-2 {
+    padding-top: 30px;
+
+}
+
+.fifth h1 {
+    display: flex;
+    font-size: 31px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.fifth button {
+    margin: 0px 32px 0px 292px;
+    background-color: white;
+    width: 130px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: sans-serif;
+    cursor: pointer;
+    height: 53px;
+}
+.sixth-1 img{
+    margin-left: 268px;
+    padding: 35px 23px 0px 0px;
+    width: 693px;
+    height: 582px;
+}
+.sixth-2 img{
+    padding: 35px 23px 0px 0px;
+    width: 693px;
+    height: 582px;
+}
+
+.sixth{
+    display: flex;
+}
+.sixth-1 h1{
+    display: flex;
+    font-size: 31px;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+.sixth-2 h1{
+    display: flex;
+    font-size: 31px;
+    font-family: sans-serif;
+    justify-content: center;
+   
+    
+}
+.sixth button {
+    margin: 0px 32px 0px 292px;
+    background-color: white;
+    width: 130px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: sans-serif;
+    height: 53px;
+}
+.sixth-1 button{
+    margin-left: 514px;
+
+}
+.seventh{
+    display: flex;
+    
+    padding: 59px 0px 0px 235px;
+}
+.seventh a{
+    padding: 0px 27px 0px 27px;
+    text-decoration: none;
+    color: black;
+}
+.seventh button{
+    border: none;
+    background-color: white;
+    font-size: larger;
+    cursor: pointer;
+    font-family: sans-serif;
+    height: 50px;
+    margin-left: 15px;
+  
+}
+.seventh button:focus{
+    border-radius: 50%;
+    border:1px solid black;
+}
+.seventh p{
+    font-weight: bolder;
+    margin: 15px 0px 0px 15px;
+}
+.hr{
+    float: right;
+    margin: -27px 219px 0px 0px;
+    width: 900px;
+}
+.eighth{
+    display: flex;
+    padding: 0px 0px 79px 255px ;
+}
+.eighth img{
+    height: 491px;
+    padding: 25px 41px 0px 57px;
+
+}
+.text{
+    text-decoration: none;
+    color:white;
+   
+    font-family: sans-serif;
+    margin: 20px 0px -33px 56px;
+}
+footer{
+    width: 100%;
+    height: 1050px;
+    background-color: #1c1c1c;
+}
+.div-1{
+    height: 461px;
+    background-color: #1c1c1c;
+    display: flex;
+    width: 100%;
+    
+}
+.div-1 h1{
+    margin: 51px 41px 0px 43px;
+    font-family: monospace;
+    display: flex;
+    font-size: 38px;
+
+}
+.div-1-1{
+    margin: -6px 0px 0px 411px;
+    display: flex;
+}
+.shop ul{
+    list-style: none;
+}
+.shop a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0px 0px 0px 4px;
+}
+
+
+.shop li{
+    padding: 0px 0px 14px 0px;
+}
+.sports ul{
+    list-style: none;
+}
+.sports a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0px 0px 0px 4px;
+}
+
+
+.sports li{
+    padding: 0px 0px 14px 0px;
+}
+.support ul{
+    list-style: none;
+}
+.support a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0px 0px 0px 4px;
+}
+
+
+.support li{
+    padding: 0px 0px 14px 0px;
+}
+.company ul{
+    list-style: none;
+}
+.company a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0px 0px 0px 4px;
+}
+
+
+.company li{
+    padding: 0px 0px 14px 0px;
+}
+.contact ul{
+    list-style: none;
+}
+.contact li{
+    padding: 0px 0px 14px 0px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0px 0px 0px 4px;
+}
+.contact h4{
+    color: white;
+}
+.contact p{
+    
+    color: white;
+    font-family: sans-serif;
+
+}
+.div-1-1 h1{
+    color: white;
+}
+.div-2-1 h1{
+    color: white;
+    padding: 0px 335px 0px 0px;
+}
+.div-2-2 h1{
+    color: white;
+}
+.div-2{
+display: flex;
+padding: 0px 0px 0px 450px;
+}
+.subscribe p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.subscribe input{
+    height: 32px;
+}
+.subscribe button{
+    height: 38px;
+}
+.subscribe-1 p{
+    margin-left: 24px;
+    margin-top: -27px;
+}
+.subscribe-1 a{
+    color: white;
+}
+.div-2-3 h4{
+    color: white;
+    font-family: sans-serif;
+    margin: 104px 0px 0px -275px;
+    font-weight: 100;
+}
+.div-2-3 button{
+    height: 54px;
+    width: 248px;
+    margin: 26px 0px 0px -276px;
+    background-color:#c9192e;
+    color: white;
+    font-family: monospace;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 16px;
+}
+.div-3 p{
+    color: white;
+  
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.div-3{
+    margin: 41px 0px 0px 452px;
+}
+
+.div-3 button{
+    
+    margin-left: 8px;
+    cursor: pointer;
+}
+.div-3 img{
+    height: 26px;
+}
+.div-3-1 img{
+    margin: 85px 0px 0px 0px;
+    
+    height: 41px;
+}
+
+.div-3-1 p{
+    margin: -16px 0px 0px 114px;
+    font-size: 13px;
+}
+.div-3-1 a{
+color: white;
+margin: 0px 0px 0px 310px ;
+}
+.div-4{
+    display: flex;
+    height: 40px;
+    justify-content: right;
+    margin: -19px 539px 0px 0px;
+
+}
+.div-4 select{
+    width: 190px;
+}
+.div-4 p
+{
+    color: white;
+    margin: -16px 0px 0px 0px;
+    margin-left: -188px;
+    color: white;
+
+}
+.div-1-1 a:hover{
+    color: #c9192e;
+}
