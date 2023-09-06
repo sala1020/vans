@@ -54,8 +54,8 @@ header {
 
 }
 .nav-2-div1 a:hover{
-    border-bottom: 2px solid black;
-    animation: 1s ease-in-out;
+    color:chocolate;
+    transition: 0.2s ease-in-out;
 }
 
 .nav-2-div2 ul {
