@@ -54,8 +54,8 @@ header {
 
 }
 .nav-2-div1 a:hover{
-    color:chocolate;
-    transition: 0.2s ease-in-out;
+  color: #c9192e;
+  transition: 0.2s ease-in-out;
 }
 
 .nav-2-div2 ul {
